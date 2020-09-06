@@ -54,6 +54,12 @@ func main() {
 		"config/", "k8s:config/config-map.yaml",
 	}
 
+	// 可以通过 API 设置 Banner 字符串
+	// SpringBoot.SetBanner("go-spring-demo@github")
+
+	// 关闭 Banner 功能
+	// SpringBoot.SetBannerMode(SpringBoot.BannerModeOff)
+
 	// 等效 SpringBoot.RunApplication(configLocations...)
 	SpringBoot.NewApplication().Run(configLocations...)
 }

@@ -6,7 +6,7 @@ require (
 	github.com/DATA-DOG/go-sqlmock v1.4.1
 	github.com/elliotchance/redismock v1.5.3
 	github.com/go-redis/redis v6.15.9+incompatible
-	github.com/go-spring/spring-boot v1.0.5-rc1.0.20200905151851-2d5a8d5004ff
+	github.com/go-spring/spring-boot v1.0.5-rc1.0.20200906075305-b52069bb2a6b
 	github.com/go-spring/spring-core v1.0.5-rc1.0.20200905151159-43bb666695d5
 	github.com/go-spring/spring-echo v1.0.5-rc1.0.20200905145947-b80bd3e6759a
 	github.com/go-spring/spring-logger v1.0.5-rc1
