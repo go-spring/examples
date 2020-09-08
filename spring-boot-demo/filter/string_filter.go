@@ -18,6 +18,7 @@ package filter
 
 import (
 	"github.com/go-spring/spring-boot"
+	"github.com/go-spring/spring-logger"
 	"github.com/go-spring/spring-web"
 )
 
@@ -41,8 +42,9 @@ func NewStringFilter(s string) *StringFilter {
 
 func (f *StringFilter) Invoke(ctx SpringWeb.WebContext, chain SpringWeb.FilterChain) {
 
-	defer ctx.LogInfo("after ", f.s, " code:", ctx.ResponseWriter().Status())
+	defer func() { ctx.LogInfo("after ", f.s, " code:", ctx.ResponseWriter().Status()) }()
 	ctx.LogInfo("before ", f.s)
+	SpringLogger.Info(f.s)
 
 	chain.Next(ctx)
 }

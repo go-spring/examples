@@ -51,7 +51,7 @@ func (_ *MyRunner) Run(appCtx SpringBoot.ApplicationContext) {
 	_ = appCtx.Run(fn, "1:${version:=v0.0.1}").On(SpringCore.ConditionOnProfile("test"))
 
 	appCtx.SafeGoroutine(func() {
-		defer SpringLogger.Info("exit after waiting in MyRunner::Run")
+		defer func() { SpringLogger.Info("exit after waiting in MyRunner::Run") }()
 
 		ticker := time.NewTicker(10 * time.Millisecond)
 		defer ticker.Stop()

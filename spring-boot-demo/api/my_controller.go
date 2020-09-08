@@ -69,7 +69,7 @@ func init() {
 			WithDescription("echo")
 
 		SpringBoot.Go(func(ctx context.Context) {
-			defer SpringLogger.Info("exit after waiting in ::Go")
+			defer func() { SpringLogger.Info("exit after waiting in ::Go") }()
 
 			ticker := time.NewTicker(10 * time.Millisecond)
 			defer ticker.Stop()

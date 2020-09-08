@@ -9,7 +9,7 @@ require (
 	github.com/go-spring/spring-boot v1.0.5-rc1.0.20200906075305-b52069bb2a6b
 	github.com/go-spring/spring-core v1.0.5-rc1.0.20200906085456-db67c443045d
 	github.com/go-spring/spring-echo v1.0.5-rc1.0.20200905145947-b80bd3e6759a
-	github.com/go-spring/spring-logger v1.0.5-rc1
+	github.com/go-spring/spring-logger v1.0.5-rc1.0.20200908153741-596380ea11ca
 	github.com/go-spring/spring-utils v1.0.5-rc1
 	github.com/go-spring/spring-web v1.0.5-rc1.0.20200905145629-90374a3dab2f
 	github.com/go-spring/starter-db v1.0.5-rc1

@@ -61,7 +61,7 @@ func (m *MyModule) OnStopApplication(appCtx SpringBoot.ApplicationContext) {
 func Process() {
 	defer SpringBoot.Exit()
 
-	defer SpringLogger.Info("go stop")
+	defer func() { SpringLogger.Info("go stop") }()
 	SpringLogger.Info("go start")
 
 	var m *MyModule
