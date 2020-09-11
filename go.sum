@@ -84,6 +84,8 @@ github.com/go-spring/spring-boot v1.0.5-rc1.0.20200905151851-2d5a8d5004ff h1:sDT
 github.com/go-spring/spring-boot v1.0.5-rc1.0.20200905151851-2d5a8d5004ff/go.mod h1:X5s2VWTYVSYzyXp0OtRssVLB5fGk1+yheDSGZc4IbrU=
 github.com/go-spring/spring-boot v1.0.5-rc1.0.20200906075305-b52069bb2a6b h1:noWogGOidSfYdfbj7IGjDDR/s0s26uYJRTBYY/pIx4M=
 github.com/go-spring/spring-boot v1.0.5-rc1.0.20200906075305-b52069bb2a6b/go.mod h1:X5s2VWTYVSYzyXp0OtRssVLB5fGk1+yheDSGZc4IbrU=
+github.com/go-spring/spring-boot v1.0.5-rc1.0.20200911140500-b2bdfdfc633c h1:DS8o/koeGCyNWlql8/Ncmj//NqD8Z0MpZXWBtEFPjo8=
+github.com/go-spring/spring-boot v1.0.5-rc1.0.20200911140500-b2bdfdfc633c/go.mod h1:X5s2VWTYVSYzyXp0OtRssVLB5fGk1+yheDSGZc4IbrU=
 github.com/go-spring/spring-const v0.0.0-20200809010018-216088f08c7a h1:83weDH4e7lKkibRNCZx80HT36pwkH1FRaV/fIWPfa4A=
 github.com/go-spring/spring-const v0.0.0-20200809010018-216088f08c7a/go.mod h1:WBXCBvxv5cf0RIqnEB3wxoZ2y1G3XIUEYk7i5KDXInw=
 github.com/go-spring/spring-const v1.0.5-rc1 h1:P9z23RoPiPnTVVcxxNlKZaswLGt8e8TntIPFGVE4DOU=

@@ -6,7 +6,7 @@ require (
 	github.com/DATA-DOG/go-sqlmock v1.4.1
 	github.com/elliotchance/redismock v1.5.3
 	github.com/go-redis/redis v6.15.9+incompatible
-	github.com/go-spring/spring-boot v1.0.5-rc1.0.20200906075305-b52069bb2a6b
+	github.com/go-spring/spring-boot v1.0.5-rc1.0.20200911140500-b2bdfdfc633c
 	github.com/go-spring/spring-core v1.0.5-rc1.0.20200906085456-db67c443045d
 	github.com/go-spring/spring-echo v1.0.5-rc1.0.20200905145947-b80bd3e6759a
 	github.com/go-spring/spring-logger v1.0.5-rc1.0.20200908153741-596380ea11ca
@@ -18,5 +18,6 @@ require (
 	github.com/go-spring/starter-web v1.0.5-rc1
 	github.com/jinzhu/gorm v1.9.15
 	github.com/labstack/echo v3.3.10+incompatible
+	github.com/magiconair/properties v1.8.1
 	go.mongodb.org/mongo-driver v1.4.0
 )
