@@ -20,16 +20,16 @@ import (
 	"fmt"
 
 	"github.com/go-spring/spring-boot"
+	"github.com/go-spring/spring-core"
 	"github.com/go-spring/spring-web"
 )
 
 func init() {
-	SpringBoot.RegisterBean(new(SingleBeanFilter))
+	// 这种方式可以避免使用 export 语法，就像 StringFilter 和 NumberFilter 那样。
+	SpringBoot.RegisterFilter(SpringCore.ObjectBean(new(SingleBeanFilter)))
 }
 
 type SingleBeanFilter struct {
-	_ SpringWeb.Filter `export:""`
-
 	DefaultValue string `value:"${default-value:=default}"`
 }
 

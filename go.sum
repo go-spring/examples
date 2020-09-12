@@ -86,6 +86,8 @@ github.com/go-spring/spring-boot v1.0.5-rc1.0.20200906075305-b52069bb2a6b h1:noW
 github.com/go-spring/spring-boot v1.0.5-rc1.0.20200906075305-b52069bb2a6b/go.mod h1:X5s2VWTYVSYzyXp0OtRssVLB5fGk1+yheDSGZc4IbrU=
 github.com/go-spring/spring-boot v1.0.5-rc1.0.20200911140500-b2bdfdfc633c h1:DS8o/koeGCyNWlql8/Ncmj//NqD8Z0MpZXWBtEFPjo8=
 github.com/go-spring/spring-boot v1.0.5-rc1.0.20200911140500-b2bdfdfc633c/go.mod h1:X5s2VWTYVSYzyXp0OtRssVLB5fGk1+yheDSGZc4IbrU=
+github.com/go-spring/spring-boot v1.0.5-rc1.0.20200912144533-c0f6e1b2fd06 h1:qULAk+6BhXnuIm3HOB1DkuBzq9sUpwiTMk+IBFiSK00=
+github.com/go-spring/spring-boot v1.0.5-rc1.0.20200912144533-c0f6e1b2fd06/go.mod h1:Fu4/XCAWqBKvgI1tz1lc5lUl9QRQWNNj1p2cCuyhZhc=
 github.com/go-spring/spring-const v0.0.0-20200809010018-216088f08c7a h1:83weDH4e7lKkibRNCZx80HT36pwkH1FRaV/fIWPfa4A=
 github.com/go-spring/spring-const v0.0.0-20200809010018-216088f08c7a/go.mod h1:WBXCBvxv5cf0RIqnEB3wxoZ2y1G3XIUEYk7i5KDXInw=
 github.com/go-spring/spring-const v1.0.5-rc1 h1:P9z23RoPiPnTVVcxxNlKZaswLGt8e8TntIPFGVE4DOU=
@@ -98,6 +100,8 @@ github.com/go-spring/spring-core v1.0.5-rc1.0.20200905151159-43bb666695d5 h1:TCQ
 github.com/go-spring/spring-core v1.0.5-rc1.0.20200905151159-43bb666695d5/go.mod h1:qr095MTdkWQx2mjiuWsrPTarGU5U6g+EeqyWkYtlCps=
 github.com/go-spring/spring-core v1.0.5-rc1.0.20200906085456-db67c443045d h1:N0UiVKMsB365FQ0q7hLNaYqKsBdNve51Io38ojqZGNY=
 github.com/go-spring/spring-core v1.0.5-rc1.0.20200906085456-db67c443045d/go.mod h1:qr095MTdkWQx2mjiuWsrPTarGU5U6g+EeqyWkYtlCps=
+github.com/go-spring/spring-core v1.0.5-rc1.0.20200912142928-7047ba9c10a3 h1:Et8z7c9yNwtvntskhLgidw4359b845kWWJomAGYKB6c=
+github.com/go-spring/spring-core v1.0.5-rc1.0.20200912142928-7047ba9c10a3/go.mod h1:qr095MTdkWQx2mjiuWsrPTarGU5U6g+EeqyWkYtlCps=
 github.com/go-spring/spring-echo v0.0.0-20200809013707-6aab03568bbd h1:DX620UTbKzFVuf393AnAEQFVlaHUY074dT2smSknJZw=
 github.com/go-spring/spring-echo v0.0.0-20200809013707-6aab03568bbd/go.mod h1:dyQqjAqPKsGMKwnlX7w0E/SmSpv4X6K8o3anfdy47NA=
 github.com/go-spring/spring-echo v1.0.5-rc1 h1:oP147aue6TeIbVdmjlxI7VH/zVVugbF4/uz1A+nx5L0=
